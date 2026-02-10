@@ -1,0 +1,15 @@
+data:
+  raw_path: data/raw/news.csv
+
+model:
+  transformer_name: distilbert-base-uncased
+  max_length: 128
+  embedding_dim: 768
+
+training:
+  epochs: 5
+  lr: 0.001
+  sample_limit: 1000
+
+artifacts:
+  model_path: artifacts/models/popularity_head.pt

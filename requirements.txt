@@ -1,0 +1,16 @@
+# Core
+streamlit>=1.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+pyyaml>=6.0
+
+# Deep Learning (CPU)
+torch>=2.2.0
+transformers>=4.37.0
+
+# NLP utils for proxy signals
+nltk>=3.8.1
+textstat>=0.7.3
+
+# Progress / misc
+tqdm>=4.66.0

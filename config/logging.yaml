@@ -1,0 +1,17 @@
+version: 1
+formatters:
+  simple:
+    format: "%(asctime)s - %(levelname)s - %(message)s"
+handlers:
+  file:
+    class: logging.FileHandler
+    filename: logs/training.log
+    formatter: simple
+    level: INFO
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: INFO
+root:
+  level: INFO
+  handlers: [file, console]

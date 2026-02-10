@@ -1,0 +1,19 @@
+# Environments
+.venv/
+__pycache__/
+*.pyc
+
+# Data & artifacts
+data/
+artifacts/
+logs/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Notebooks outputs
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
